@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: #5a5f6739;
+    background-image: url('./mountain.avif');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counterdown{
+    color:#C9D2DB;
+}
+.main{
+    width:500px;
+    height:200px;
+    background: #5a5f675c;
+}
+.main .row{
+    margin-left: 20px;
+    margin-top: 20px;
+}
